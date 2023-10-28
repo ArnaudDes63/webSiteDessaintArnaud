@@ -12,6 +12,7 @@
   --container-color: hsl(0, 0%, 93%);
   --border-color: hsl(0, 0%, 87%);
   --text-white: #fff;
+  --dark-color : black ;
 
   /*========== Font and Typo =================*/
   --body-font: "Open Sans", sans-serif;
@@ -41,6 +42,7 @@
   --body-color: hsl(0, 0%, 7%);
   --container-color: hsl(0, 1%, 17%);
   --border-color: hsl(0, 0%, 15%);
+  --dark-color : white ;
 }
 
 /*  Responsive Typography */
@@ -85,6 +87,7 @@ h4 {
   color: var(--title-color);
   font-family: var(--second-font);
   font-weight: var(--weight-700);
+  margin-bottom: 15px;
 }
 
 ul {

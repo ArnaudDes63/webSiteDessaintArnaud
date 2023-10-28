@@ -1,0 +1,7 @@
+.github-list__item {
+  margin-bottom: 20px; 
+}
+
+.github-link a{
+  color: red !important;
+}

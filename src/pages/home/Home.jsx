@@ -1,8 +1,8 @@
 import React from "react";
-import Profile from "../../assets/photo_2.jpeg";
+import Profile from "../../assets/IMG_5509.jpg";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import "./home.css"
+import "./home.css";
 
 const Home = () => {
   return (
@@ -16,15 +16,17 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            Je suis français, actuellement en reconversion professionnelle dans
-            le développement Web. Diplômé Bac+2 Développeur web et web mobile.
-            Motiver et passionné.
+            Développeur web passionné avec 2 années d'expériences dans la conception,
+            le développement et la mise en œuvre de sites web. J'ai de nombreuses
+            compétences en développement front-end et back-end, avec une
+            spécialisation dans des technologies telles que React, Node.js et API Rest
+            avec Express et TypeScript.
+
           </p>
 
           <Link to="/about" className="button">
             Plus sur moi
             <span className="button__icon">
-              
               <FaArrowRight />
             </span>
           </Link>

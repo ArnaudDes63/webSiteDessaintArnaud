@@ -2,7 +2,7 @@ import React from "react";
 import Info from "../../components/info";
 import Stats from "../../components/Stats";
 import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/arnaud-Cv.pdf";
+import CV from "../../assets/CV.pdf";
 import Skills from "../../components/Skills";
 import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
@@ -49,23 +49,50 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="resume">
-        <h3 className="section__subtitle subtitle__center">Experience & Formation</h3>
 
         <div className="resume__container grid">
+          
           <div className="resume__data">
+        <h3 className="section__subtitle subtitle__center">Stage</h3>
+
             {resume.map((val) => {
-              if (val.category === 'experience') {
+              if (val.category === 'stage') {
               return <ResumeItem key={val.id} {...val} />;
               }   
             })}
           </div>
+        </div>
+      </section>
+
+
+      <div className="separator"></div>
+
+
+      <section className="resume">
+
+        <div className="resume__container grid">
+          
           <div className="resume__data">
+        <h3 className="section__subtitle subtitle__center">Formation</h3>
+
             {resume.map((val) => {
               if (val.category === 'education') {
               return <ResumeItem key={val.id} {...val} />;
               }   
             })}
           </div>
+          <div className="resume__data">
+        <h3 className="section__subtitle subtitle__center">Experience</h3>
+
+            {resume.map((val) => {
+              if (val.category === 'experience') {
+              return <ResumeItem key={val.id} {...val} />;
+              }   
+            })}
+          </div>
+          
+
+
         </div>
       </section>
     </main>
