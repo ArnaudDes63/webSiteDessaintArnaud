@@ -134,6 +134,23 @@
   .contact__container {
     row-gap: 48px;
   }
+  .portfolio__container,
+  .section,
+  .section__title    
+   {
+    text-align: center;
+    margin: 35px;
+    
+  }  
+  .github__container{
+    text-align: center;
+    
+
+  }
+  .resume__data {
+    text-align: center;
+    
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -180,6 +197,8 @@
     top: 3%;
   }
 
+  
+
   .portfolio__modal-content {
     padding: 25px 20px;
   }
@@ -187,6 +206,24 @@
   .modal__close {
     top: -9%;
     right: 0%;
+  }
+  .portfolio__container,
+  .section,
+  .section__title    
+   {
+    text-align: center;
+    margin: 35px;
+    
+  }  
+  .github__container{
+    text-align: center;
+    
+
+  }
+  .resume__data {
+    font-size: var(--h1-font-size);
+    text-align: center;
+    
   }
 }
 
@@ -250,6 +287,24 @@
   .style__switcher-close {
     top: 5%;
   }
+
+  .portfolio__container,
+  .section,
+  .section__title    
+   {    
+    text-align: center;
+    margin: 35px;
+    
+  }  
+
+  .github__container{
+    text-align: center;  
+  }
+
+  .resume__data {
+    font-size: var(--h1-font-size);
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -275,6 +330,25 @@
   .stats__box {
     padding: 15px 15px 25px 20px;
   }
+
+  .portfolio__container,
+  .section,
+  .section__title    
+   {
+    text-align: center;
+    margin: 35px;
+    
+  }  
+  .github__container{
+    text-align: center;
+    
+
+  }
+  .resume__data {
+    font-size: var(--h1-font-size);
+    text-align: center;
+    
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -285,5 +359,7 @@
   .stats {
     grid-template-columns: 1fr;
   }
+
+  
 
 }

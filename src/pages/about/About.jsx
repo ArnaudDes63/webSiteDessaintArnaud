@@ -3,7 +3,7 @@ import Info from "../../components/info";
 import Stats from "../../components/Stats";
 import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/CV.pdf";
-import Skills from "../../components/Skills";
+import Skills from "../../components/skills/Skills";
 import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
 import "./about.css";
@@ -39,7 +39,7 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="skills">
-        <h3 className="section__subtitle subtitle__center">My Skills</h3>
+        <h3 className="section__subtitle subtitle__center ">My Skills</h3>
 
         <div className="skills__container grid">
           <Skills />

@@ -1,0 +1,17 @@
+.progress__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  margin: 10px; 
+}
+
+.progress__circle {
+  margin-bottom: 10px; 
+}
+
+.long-title .skills__title {
+  font-size: 14px; 
+  width: 100px; 
+  text-align: center; 
+}

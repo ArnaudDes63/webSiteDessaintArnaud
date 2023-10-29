@@ -1,14 +1,18 @@
 import React from "react";
-import { skills } from "../data";
+import { skills } from "../../data";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import '../skills/skill.css';
 
 const Skills = () => {
   return (
     <>
       {skills.map(({ title, percentage }, index) => {
+        // Ajoutez la classe "long-title" si le titre est "Bootstrap - Tailwind" ou "TypeScript - Express"
+        const isLongTitle = title === "Bootstrap Tailwind" || title === "TypeScript Express";
+
         return (
-          <div className="progress__box" key={index}>
+          <div className={`progress__box ${isLongTitle ? "long-title" : ""}`} key={index}>
             <div className="progress__circle">
               <CircularProgressbar
                 strokeWidth={3.5}
@@ -24,5 +28,6 @@ const Skills = () => {
     </>
   );
 };
+
 
 export default Skills;

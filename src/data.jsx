@@ -339,13 +339,13 @@ export const skills = [
 
   {
     id: 7,
-    title: "Bootstrap - Tailwind",
+    title: "Bootstrap Tailwind",
     percentage: "60",
   },
 
   {
     id: 8,
-    title: "TypeScript - Express",
+    title: "TypeScript Express",
     percentage: "60",
   },
   {
@@ -458,6 +458,13 @@ export const github = [
         desc: "Projet réaliser avec le tuto de Enzo ( le développeur du web ) sur youtube",
         view: <>
           <a href="https://github.com/ArnaudDes63/yeuxquibouge">Visiter le Repositories Git</a>
+        </>
+      },
+      {
+        title: "Calculette",
+        desc: "Calculette réaliser avec un tuto youtube",
+        view: <>
+          <a href="https://github.com/ArnaudDes63/Modern-Calculator-App">Visiter le Repositories Git</a>
         </>
       },
       {
