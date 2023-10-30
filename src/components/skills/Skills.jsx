@@ -7,7 +7,7 @@ import '../skills/skill.css';
 const Skills = () => {
   return (
     <>
-      {skills.map(({ title, percentage }, index) => {
+      {skills.map(({ title, category }, index) => {
         // Ajoutez la classe "long-title" si le titre est "Bootstrap - Tailwind" ou "TypeScript - Express"
         const isLongTitle = title === "Bootstrap Tailwind" || title === "TypeScript Express";
 
@@ -16,8 +16,8 @@ const Skills = () => {
             <div className="progress__circle">
               <CircularProgressbar
                 strokeWidth={3.5}
-                text={`${percentage}%`}
-                value={percentage}
+                text={`${category}`}
+                value={category}
               />
             </div>
 

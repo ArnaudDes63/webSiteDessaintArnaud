@@ -10,13 +10,13 @@ import {
 import { VscAccount } from "react-icons/vsc";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
-import Work7 from "./assets/project-7.jpg";
+import Work1 from "./assets/parent.png";
+// import Work2 from "./assets/project-2.jpg";
+// import Work3 from "./assets/project-3.jpeg";
+// import Work4 from "./assets/project-4.jpeg";
+// import Work5 from "./assets/project-5.jpg";
+// import Work6 from "./assets/project-6.jpg";
+// import Work7 from "./assets/project-7.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -84,39 +84,25 @@ export const personalInfo = [
     title: "Nationalité : ",
     description: "Français",
   },
-
-  // {
-  //   id: 5,
-  //   title: 'Freelance : ',
-  //   description: 'Available',
-  // },
-
   {
-    id: 6,
+    id: 5,
     title: "Addresse : ",
     description: "France",
   },
 
   {
-    id: 7,
+    id: 6,
     title: "Téléphone : ",
     description: "06 74 40 67 06",
   },
 
   {
-    id: 8,
+    id: 7,
     title: "Email : ",
     description: "arnauddevv@outlook.fr",
   },
-
-  // {
-  //   id: 9,
-  //   title: 'Skype : ',
-  //   description: 'steve.milner',
-  // },
-
   {
-    id: 10,
+    id: 8,
     title: "Langue : ",
     description: "Français",
   },
@@ -134,18 +120,6 @@ export const stats = [
     no: "3+",
     title: "Projets <br /> Réalisés",
   },
-
-  // {
-  //   id: 3,
-  //   no: '81+',
-  //   title: 'Happy <br /> Customers',
-  // },
-
-  // {
-  //   id: 4,
-  //   no: '53+',
-  //   title: ' Awards <br /> Won',
-  // },
 ];
 
 export const resume = [
@@ -306,61 +280,15 @@ export const skills = [
   {
     id: 1,
     title: "Html - CSS",
-    percentage: "100",
+    category: "Front End",
   },
-
   {
     id: 2,
-    title: "MySQL",
-    percentage: "70",
+    title: "Javascript",
+    category: "Front End",
   },
-
   {
     id: 3,
-    title: "Javascript",
-    percentage: "70",
-  },
-  {
-    id: 4,
-    title: "GitLab - Github",
-    percentage: "60",
-  },
-  {
-    id: 5,
-    title: "Php - Symfony",
-    percentage: "60",
-  },
-
-  {
-    id: 6,
-    title: "React",
-    percentage: "60",
-  },
-
-  {
-    id: 7,
-    title: "Bootstrap Tailwind",
-    percentage: "60",
-  },
-
-  {
-    id: 8,
-    title: "TypeScript Express",
-    percentage: "60",
-  },
-  {
-    id: 9,
-    title: "NodeJs ",
-    percentage: "60",
-  },
-  {
-    id: 10,
-    title: "ApiPlatform",
-    percentage: "50",
-  },
-
-  {
-    id: 11,
     title:
       <>
         CMS :
@@ -369,17 +297,55 @@ export const skills = [
         <br />
         - Prestashop
       </>,
-    percentage: "50",
+    category: "Front End",
+  },
+  {
+    id: 4,
+    title: "React - VueJs",
+    category: "Front End",
+  },
+  {
+    id: 5,
+    title: "Bootstrap Tailwind",
+    category: "Front End",
+  },
+  {
+    id: 6,
+    title: "MySQL - Mongo DB",
+    category: "Back End",
+  },
+  {
+    id: 7,
+    title: "Php - Symfony",
+    category: "Back End",
+  },
+  {
+    id: 8,
+    title: "TypeScript Express",
+    category: "Back End",
+  },
+  {
+    id: 9,
+    title: "NodeJs",
+    category: "Back End",
+  },
+  {
+    id: 10,
+    title: "ApiPlatform",
+    category: "Back End",
+  },
+  {
+    id: 11,
+    title: "GitLab - Github",
+    category: "DevOps",
   },
   {
     id: 12,
-    title: "Mongo DB",
-    percentage: "50",
+    title: "Docker Compose",
+    category: "DevOps",
   }
-
-
-
 ];
+
 
 export const portfolio = [
   {
@@ -436,7 +402,7 @@ export const github = [
         title: "Menu Decouverte",
         desc: "Site développer avec la formation de Enzo ( développeur du web )",
         view: <>
-          <a href="https://github.com/ArnaudDes63/menuDecouverte">Visiter le Repositories Git</a>        
+          <a href="https://github.com/ArnaudDes63/menuDecouverte">Visiter le Repositories Git</a>
         </>
       },
       {

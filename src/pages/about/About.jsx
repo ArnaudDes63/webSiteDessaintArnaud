@@ -39,7 +39,7 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="skills">
-        <h3 className="section__subtitle subtitle__center ">My Skills</h3>
+        <h3 className="section__subtitle subtitle__center">My Skills</h3>
 
         <div className="skills__container grid">
           <Skills />
@@ -51,14 +51,14 @@ const About = () => {
       <section className="resume">
 
         <div className="resume__container grid">
-          
+
           <div className="resume__data">
-        <h3 className="section__subtitle subtitle__center">Stage</h3>
+            <h3 className="section__subtitle subtitle__center">Stage</h3>
 
             {resume.map((val) => {
               if (val.category === 'stage') {
-              return <ResumeItem key={val.id} {...val} />;
-              }   
+                return <ResumeItem key={val.id} {...val} />;
+              }
             })}
           </div>
         </div>
@@ -71,26 +71,26 @@ const About = () => {
       <section className="resume">
 
         <div className="resume__container grid">
-          
+
           <div className="resume__data">
-        <h3 className="section__subtitle subtitle__center">Formation</h3>
+            <h3 className="section__subtitle subtitle__center">Formation</h3>
 
             {resume.map((val) => {
               if (val.category === 'education') {
-              return <ResumeItem key={val.id} {...val} />;
-              }   
+                return <ResumeItem key={val.id} {...val} />;
+              }
             })}
           </div>
           <div className="resume__data">
-        <h3 className="section__subtitle subtitle__center">Experience</h3>
+            <h3 className="section__subtitle subtitle__center">Experience</h3>
 
             {resume.map((val) => {
               if (val.category === 'experience') {
-              return <ResumeItem key={val.id} {...val} />;
-              }   
+                return <ResumeItem key={val.id} {...val} />;
+              }
             })}
           </div>
-          
+
 
 
         </div>
