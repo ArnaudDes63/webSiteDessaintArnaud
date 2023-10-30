@@ -1,6 +1,7 @@
 import React,{ useState } from "react";
 import emailjs from "emailjs-com";
 
+
 import {
   FaEnvelopeOpen,
   FaPhoneSquareAlt,
@@ -11,6 +12,7 @@ import {
 import { FiSend } from "react-icons/fi";
 
 import "./contact.css";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const [formError, setFormError] = useState(false);
@@ -32,7 +34,10 @@ const Contact = () => {
       "MC915YqDk0Vljl57d"
     ).then(res => {
       console.log(res);
-      window.location.reload(); // Actualiser la page après l'envoi réussi
+      toast.success("Message envoyé"); // Vérifiez que cette ligne est exécutée
+      setTimeout(() => {
+        window.location.reload(); // Actualiser la page après un délai
+      }, 2000); // Mettez le délai souhaité en millisecondes (par exemple, 2000 ms = 2 secondes)
     }).catch(err => console.log(err))
   }
   return (
