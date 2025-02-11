@@ -16,11 +16,10 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            Développeur web passionné avec 2 années d'expériences dans la conception,
+            Développeur web passionné avec 3 années d'expériences dans la conception,
             le développement et la mise en œuvre de sites web. J'ai de nombreuses
             compétences en développement front-end et back-end, avec une
-            spécialisation dans des technologies telles que React, Node.js et API Rest
-            avec Express et TypeScript.
+            spécialisation dans des technologies telles que PHP, Symfony, React, Node.js et API Rest avec Express et TypeScript.
 
           </p>
 

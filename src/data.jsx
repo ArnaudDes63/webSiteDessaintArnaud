@@ -111,20 +111,37 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "2",
+    no: "3",
     title: "Ans  <br /> Experience",
   },
 
   {
     id: 2,
-    no: "3+",
+    no: "5+",
     title: "Projets <br /> Réalisés",
   },
 ];
 
 export const resume = [
+
   {
     id: 1,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "2024 - Aujourd'hui",
+    title:
+      "Concepteur développeur d'application <span> Algotis - Clermont-Ferrand </span>",
+      desc: <>
+      - Développement et maintenance d'applications web avec PHP/Symfony  
+      <br />
+      - Conception et optimisation des bases de données (MySQL)  
+      <br />
+      - Collaboration avec les équipes métiers pour l'analyse des besoins et la
+       modélisation des données  
+    </>,
+  },
+  {
+    id: 2,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2012 - 2020",
@@ -145,7 +162,7 @@ export const resume = [
   },
 
   {
-    id: 2,
+    id: 3,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2011 - 2012",
@@ -158,7 +175,7 @@ export const resume = [
   },
 
   {
-    id: 3,
+    id: 4,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2009 - 2010",
@@ -175,7 +192,7 @@ export const resume = [
   },
 
   {
-    id: 4,
+    id: 5,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2009 - 2010",
